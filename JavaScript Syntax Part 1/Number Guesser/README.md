@@ -1,0 +1,1 @@
+In this project tasks were given to complete script.js file and rest all files were given before hand to complete this project!
