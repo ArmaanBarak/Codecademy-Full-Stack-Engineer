@@ -6,6 +6,7 @@ The project is meant to be completed if all tests available in the files in test
 Else test-all.js can be ran to test all of the methods with the test cases.
 */
 
+
 // Project begins here
 const _ = {
 
