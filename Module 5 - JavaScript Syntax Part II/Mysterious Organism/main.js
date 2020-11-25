@@ -65,11 +65,9 @@ const pAequorFactory = (number, arrayOfDNA) => {
         // Task 4
         willLikelySurvive () {
 
-            let cCount = this.dna.filter(x => x === 'C').length;
-            let gCount = this.dna.filter(x => x === 'G').length;
-            let totalCount = cCount + gCount;
+            const cOrG = this.dna.filter(el => el === "C" || el === "G");
 
-            return ((totalCount / this.dna.length) * 100) >= 60.00;
+            return cOrG.length / this.dna.length >= .6;
 
         }
     };
@@ -77,7 +75,7 @@ const pAequorFactory = (number, arrayOfDNA) => {
 
 
 // Task 5
-let pAequorArray = [];
+const pAequorArray = [];
 
 let specimenCount = 1;
 
@@ -85,11 +83,11 @@ while (pAequorArray.length !== 30) {
     
     obj = pAequorFactory(specimenCount, mockUpStrand());
 
-    if (!obj.willLikelySurvive()) {
-        continue;
+    if (obj.willLikelySurvive()) {
+        pAequorArray.push(obj);;
     }
     specimenCount += 1;
-    pAequorArray.push(obj);
+    
 }
 
 // console.log(pAequorArray.length); // should print 30
