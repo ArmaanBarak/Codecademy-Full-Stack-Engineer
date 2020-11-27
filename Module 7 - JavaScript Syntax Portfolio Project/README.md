@@ -1,6 +1,6 @@
 # Project Description
 
-### Name: Mixed Messages
+### Project Name: Mixed Messages
 
 ### Objectives:
     
