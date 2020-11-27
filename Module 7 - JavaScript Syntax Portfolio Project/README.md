@@ -4,16 +4,16 @@
 
 ### Objectives:
     
-    + Build a message generator program using Javascript
-    + Use Git version control system
-    + Use Command Line
++ Build a message generator program using Javascript
++ Use Git version control system
++ Use Command Line
 
 
 ### Prerequisites:
 
-    + Javascript
-    + Git and GitHub
-    + Command Line
++ Javascript
++ Git and GitHub
++ Command Line
 
 ***
 
