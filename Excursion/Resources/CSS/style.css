@@ -24,3 +24,8 @@ h2 {
     font-size: 21px;
     color: gray;
 }
+
+.end {
+    text-align: right;
+    color: gray;
+}
