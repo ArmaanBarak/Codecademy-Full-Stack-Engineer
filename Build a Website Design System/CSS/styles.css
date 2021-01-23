@@ -1,38 +1,134 @@
+/*
+Sections:
+1) Universal Styles
+2) Navigation Section Styles
+3) Main Content Section Styles
+    a) Colors Section
+    b) Fonts Section
+    c) Styles Section
+*/
+
+
+/* Universal Styles */
 * {
     box-sizing: border-box;
 }
 
-html {
-    margin: 0;
-    padding: 0;
-}
-
+/* Navigation Section Styles */
 header {
-    position: fixed;
-    background-color: #16D960;
-    width: 100%;
-    left: 0;
-    top: 0;
+    background-color: #BB39F7;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+    font-size: 28px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     z-index: 1;
-    box-shadow: 0px 2px 2px -1px black;
+    box-shadow: 0px 3px 3px -3px black;
+    text-shadow: 0px 2px 2px black;
 }
 
-a {
+
+/* Left side of nav bar */
+.left-side-nav {
+    float: left;
+    padding: 10px 80px;
+    color: #20F790;
+}
+
+.left-side-nav h1 a {
     text-decoration: none;
-    color: white;
-    opacity: 0.95;
-    text-shadow: 1px 2px black;
+    color: inherit;
 }
 
-nav ul li {
-    list-style: none;
+.left-side-nav h1 a:hover,
+.left-side-nav h1 a:active {
+    opacity: 0.9;
+    text-shadow: 0px 3px 3px black;
+}
+
+/* Right side of nav bar */
+.right-side-nav {
+    float: right;
+    padding: 20px 30px;
+}
+
+.right-side-nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 20px;
+    color: #F7E252;
+    margin: 0px 10px;
+    border: 3px solid white;
+    background-color: #FC2DA5;
+    border-radius: 15px;
+}
+
+.right-side-nav ul li {
     display: inline-block;
-    padding: 20px;
+    list-style: none;
 }
 
-.site-name {
-    margin-right: 650px;
+.right-side-nav ul li a:hover,
+.right-side-nav ul li a:active {
+    opacity: 0.9;
+    border-color: black;
+    color: #2AF720;
+}
+
+
+/* Main Content Section Styles */
+.boxes {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 70%;
+    height: 500px;
+    margin: 50px auto;
+}
+
+/* Colors Section */
+#colors {
+    margin-top: 190px;
+}
+
+#orange {
+    background-color: #F79652;
+}
+
+#yellow {
+    background-color: #E1EB2D;
+}
+
+#green {
+    background-color: #1FAB67;
+}
+
+#blue {
+    background-color: #4094DE;
+}
+
+.color-box h2 {
+    font-size: 20px;
+}
+
+.color-box h3 {
+    font-size: 16px;
+}
+
+.two-box-container {
+    width: 85%;
+    display: block;
+    margin: 50px auto;
+    height: 175px;
+}
+
+.color-box {
+    height: 100%;
+    width: 40%;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0px 40px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 18px;
+    text-align: center;
 }
