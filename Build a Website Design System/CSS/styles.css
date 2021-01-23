@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: #16D960;
+    width: 100%;
+    left: 0;
+    top: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    z-index: 1;
+    box-shadow: 0px 2px 2px -1px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.95;
+    text-shadow: 1px 2px black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.site-name {
+    margin-right: 650px;
+}
