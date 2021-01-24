@@ -76,6 +76,15 @@ header {
     color: #2AF720;
 }
 
+.box-heading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    width: 10%;
+    margin: 10px auto;
+    text-transform: uppercase;
+    color: aquamarine;
+}
 
 /* Main Content Section Styles */
 .boxes {
@@ -84,6 +93,8 @@ header {
     width: 70%;
     height: 500px;
     margin: 50px auto;
+    background-color: #1F1F1F;
+    color: #353535;
 }
 
 /* Colors Section */
@@ -118,7 +129,7 @@ header {
 .two-box-container {
     width: 85%;
     display: block;
-    margin: 50px auto;
+    margin: 30px auto;
     height: 175px;
 }
 
@@ -131,4 +142,70 @@ header {
     font-family: 'Rubik', sans-serif;
     padding-top: 18px;
     text-align: center;
+}
+
+
+/* Fonts Section */
+#fonts {
+    height: 650px;
+}
+
+.two-font-container {
+    width: 95%;
+    display: block;
+    margin: 5px auto;
+    height: 270px;
+}
+
+.font-box {
+    height: 80%;
+    width: 45%;
+    display: inline-block;
+    padding-top: 10px;
+    margin: 0px 22px;
+    text-align: justify;
+    color: ;
+}
+
+.font-box h1 {
+    font-size: 28px;
+    color: #F54122;
+    text-decoration: wavy;
+    word-spacing: 5px;
+}
+
+.font-box span {
+    display: block;
+    padding: 5px 0px;
+    font-size: 18px;
+    color: #E8D543;
+}
+
+#fira-sans {
+    font-family: "Fira Sans", sans-serif;
+}
+
+#roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+#rubik {
+    font-family: "Rubik", sans-serif;
+}
+
+#ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.normal {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
 }
