@@ -24,7 +24,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
-    box-shadow: 0px 3px 3px -3px black;
+    box-shadow: 0px 5px 5px -5px blue;
     text-shadow: 0px 2px 2px black;
 }
 
@@ -150,6 +150,22 @@ header {
     height: 650px;
 }
 
+.fira-sans {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+}
+
+.ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
 .two-font-container {
     width: 95%;
     display: block;
@@ -164,7 +180,19 @@ header {
     padding-top: 10px;
     margin: 0px 22px;
     text-align: justify;
-    color: ;
+}
+
+.normal {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .font-box h1 {
@@ -181,31 +209,68 @@ header {
     color: #E8D543;
 }
 
-#fira-sans {
-    font-family: "Fira Sans", sans-serif;
+/* Styles section */
+#styles {
+    height: 490px;
 }
 
-#roboto {
-    font-family: "Roboto", sans-serif;
-}
-
-#rubik {
-    font-family: "Rubik", sans-serif;
-}
-
-#ubuntu {
+#styles .box-heading {
+    width: 20%;
     font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px auto;
+    text-transform: uppercase;
+    color: aquamarine;
 }
 
-.normal {
-    font-weight: normal;
-    font-style: normal;
+.two-style-container {
+    width: 95%;
+    display: block;
+    margin: 50px auto;
+    height: 150px;
 }
 
-.italic {
-    font-style: italic;
+.style-box {
+    height: 100%;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 10px 0px 35px;
+    text-align: justify;
 }
 
-.bold {
+/* Setting default styles for text */
+.style-box h1 {
+    display: block;
+    font-size: 26px;
+    margin: 0.67em 0;
     font-weight: 700;
+}
+
+.style-box h2 {
+    display: block;
+    font-size: 18px;
+    margin: 0.83em 0;
+    font-weight: 500;
+}
+
+.style-box p {
+    display: block;
+    margin: 1em 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.style-box span {
+    display: inline;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.top {
+    color: #F8B407;
+}
+
+.bottom {
+    color: #96F807;
 }
